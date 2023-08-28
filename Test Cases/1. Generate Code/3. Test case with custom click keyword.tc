@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>3. Test case with custom click keyword</name>
+   <name>3. Test Case With Custom Click Keyword</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0b06253b-904d-4950-869d-3a145e12b2e0</testCaseGuid>

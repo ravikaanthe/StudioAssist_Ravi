@@ -24,11 +24,10 @@ import org.openqa.selenium.Keys as Keys
  *  	- Date: 'Page_CuraAppointment/txt_VisitDate'
  *  	- Comment: 'Page_CuraAppointment/txt_Comment'
  *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
- *  	- 
  *  
  *  Write me a script to perform the steps as follows:
- *  	- Find and call the '1. Generate Code/Simple usage 1' test case with the variable 'Username' as 'John Doe' and
- *   		'Password' as 'ThisIsNotAPassword' to login
+ *  	- Find and call the '1. Generate Code/1. Simple Usage 1' test case with the variable 'Username' as 'John Doe' and
+ *   		'Password' as the Password variable to login
  *  	- Select the option with the label 'Hongkong CURA Healthcare Center' and the label
  *  		is not a regex 
  *  	- Check the health program option
