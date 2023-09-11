@@ -26,7 +26,7 @@ import org.openqa.selenium.Keys as Keys
  *				+ `Visit_Date` has the dd/mm/yyyy format
  *				+ `Comment` is one sentence describing issue regarding making appointment
  *
- * 		- Save the output to the `test_data.csv` file within the `D:/` folder using the FileOutputStream libary
+ * 		- Save the output to the `test_data.csv` file using the FileOutputStream libary
  *
  * 		- The file content must follow the below format:
  *
