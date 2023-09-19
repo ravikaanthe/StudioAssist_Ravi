@@ -26,14 +26,3 @@ WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
-
-/*
- *  This code is used to perform a series of actions on a web page using Katalon Studio.
- *
- *  1. Click on the 'Make Appointment' button on the Cura Homepage.
- *  2. Set the text of the 'Username' field on the Login page to the value of the variable 'Username'.
- *  3. Set the text of the 'Password' field on the Login page to the value of the variable 'Password'.
- *  4. Click on the 'Login' button on the Login page.
- *  5. Verify if the 'Appointment' div is present on the landing page within the specified timeout period.
- *
- */
