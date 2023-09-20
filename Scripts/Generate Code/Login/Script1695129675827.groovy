@@ -17,20 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/* 
- * 		- Generate a csv file with three columns: `Facility`, `Visist_Date` and `Comment`
- *
- * 		- The file has 5 rows that comply with the rules as follows:
- * 				+ `Facility` must be one of the following values: `Tokyo CURA Healthcare Center`, `Hongkong CURA Healthcare Center`
- * 	 				and `Seoul CURA Healthcare Center`
- *				+ `Visit_Date` has the dd/mm/yyyy format
- *				+ `Comment` is one sentence describing issue regarding making appointment
- *
- * 		- Save the output to the `test_data.csv` file using the FileOutputStream libary
- *
- * 		- The file content must follow the below format:
- *
- * 			Facility,Visit_Date,Comment
- * 			<facility>,<visit date>,<comment>
- *
- */
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 0)

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9A4EF9B00061BE1870F385E428616D4C",
+  "keywordClasses": [
+    {
+      "name": "com.example.MyCustomKeyword",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

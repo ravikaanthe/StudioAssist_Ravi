@@ -17,6 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-elementText = WebUI.getText(findTestObject('Page_ObjectName/passwordElement'))
-
-WebUI.verifyMatch(elementText, '^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.[@#$%^&+=]).{8,}$', true)
+/*
+ *  I have a list of test objects:
+ *  	- Options: 'Page_CuraAppointment/lst_Facility'
+ *  	- Health program: 'Page_CuraAppointment/chk_Medicaid'
+ *  	- Date: 'Page_CuraAppointment/txt_VisitDate'
+ *  	- Comment: 'Page_CuraAppointment/txt_Comment'
+ *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
+ *  
+ *  Write me a script to perform the steps as follows:
+ *  	- Find and call the 'Generate Code/Login' test case with the variable 'Username' as 'John Doe' and
+ *   		'Password' as the Password variable to login
+ *  	- Select the option with the label 'Hongkong CURA Healthcare Center' and the label
+ *  		is not a regex 
+ *  	- Check the health program option
+ *      - Set the date to '10/03/2024'
+ *      - Write 'Please make an appointment as soon as possible' in the comment
+ *  	- Submit the appointment
+ *  	- Capture the screenshot of the page
+ *  	- Close the browser
+*/

@@ -18,21 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /*
- *  I have a list of test objects:
- *  	- Options: 'Page_CuraAppointment/lst_Facility'
- *  	- Health program: 'Page_CuraAppointment/chk_Medicaid'
- *  	- Date: 'Page_CuraAppointment/txt_VisitDate'
- *  	- Comment: 'Page_CuraAppointment/txt_Comment'
- *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
- *
- *  Write me a script to perform the steps as follows:
- *  	- Find and call the '1. Generate Code/1. Simple Usage 1' test case with the variable 'Username' as 'John Doe' and
- *   		'Password' as the Password variable to login
- *  	- Select the option with the variable 'Facility' and the label is not a regex
- *  	- Check the health program option
- *      - Set the date with the 'Visit_Date' variable
- *      - Write comment with the value in the 'Comment' variable
- *  	- Submit the appointment
- *  	- Capture the screenshot of the page
- *  	- Close the browser
-*/
+ * 1. Open a browser to the GlobalVariable.G_SiteURL URL
+ * 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'clickElement' keyword
+ * 		inside the 'MyCustomKeyword' class. The class is within the 'com.example' package
+ * 3. Set the username object 'Page_Login/txt_UserName' with the 'Username' variable
+ * 4. Set the password object 'Page_Login/txt_Password' with the 'Password' variable
+ * 5. Click the 'Page_Login/btn_Login' login button with the same 'clickElement' custom keyword
+ * 		in step 2
+ * 6. Verify that the 'Page_CuraAppointment/div_Appointment' element is present with 10 seconds timeout
+ * 7. Close the browser
+ */
+

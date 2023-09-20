@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1. Simple Explanation</name>
+   <name>1. Script in Test Case</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a400f7c2-9282-4817-a4a1-5e1802202d8c</testCaseGuid>

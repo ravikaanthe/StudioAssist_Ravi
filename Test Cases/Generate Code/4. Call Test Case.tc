@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>4. Advanced Usage 1</name>
+   <name>4. Call Test Case</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7d6640c-6806-4bd5-91b9-76867dbf4440</testCaseGuid>
