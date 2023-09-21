@@ -4,30 +4,30 @@
    <name>1. Basic Usage 1</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cda3cbf9-61ca-4787-90b6-d40ef1df2880</testCaseGuid>
+   <testCaseGuid>89f4fe1e-916d-42d6-a01c-fca9b8103b8c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
+      <variableId>81fb31de-558e-47cb-8274-f1dee511e44d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
+      <variableId>c03c673b-a0e7-4624-a566-c4102229f99b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>19fe967b-1564-4705-aff2-848d45b84489</id>
+      <id>81fb31de-558e-47cb-8274-f1dee511e44d</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>75fa3d79-7e92-4d55-b359-f7c9493ea288</id>
+      <id>c03c673b-a0e7-4624-a566-c4102229f99b</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

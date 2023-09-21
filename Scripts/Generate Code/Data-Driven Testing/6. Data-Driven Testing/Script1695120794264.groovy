@@ -26,7 +26,7 @@ import org.openqa.selenium.Keys as Keys
  *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
  *
  *  Write me a script to perform the steps as follows:
- *  	- Find and call the '1. Generate Code/1. Simple Usage 1' test case with the variable 'Username' as 'John Doe' and
+ *  	- Find and call the 'Generate Code/Login' test case with the variable 'Username' as 'John Doe' and
  *   		'Password' as the Password variable to login
  *  	- Select the option with the variable 'Facility' and the label is not a regex
  *  	- Check the health program option

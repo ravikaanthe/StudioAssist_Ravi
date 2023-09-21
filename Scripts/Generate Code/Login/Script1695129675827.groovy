@@ -28,3 +28,5 @@ WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 0)
+
+WebUI.closeBrowser()
