@@ -23,6 +23,11 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import internal.GlobalVariable
 
 public class MyCustomKeyword {
+	
+	/**
+	 * Comment for Generate Code feature
+	 */
+	
 	/*
 	 * Write me a clickElement method that receives a test object id of type String and does as follows:
 	 *

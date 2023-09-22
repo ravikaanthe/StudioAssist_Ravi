@@ -17,6 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Comment for Generate Code feature
+ * 
+ * You need to generate the script for `Keywords/com.example/MyCustomKeyword.groovy`
+ * before generating code in this file
+ */
+
 /*
  * 1. Open a browser to the GlobalVariable.G_SiteURL URL
  * 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'clickElement' keyword

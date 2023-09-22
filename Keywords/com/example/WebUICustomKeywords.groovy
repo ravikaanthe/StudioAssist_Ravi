@@ -16,6 +16,10 @@ import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 
+/**
+ * Script for Explain Code feature 
+ */
+
 public class WebUICustomKeywords {
 	/**
 	 * Get all rows of HTML table

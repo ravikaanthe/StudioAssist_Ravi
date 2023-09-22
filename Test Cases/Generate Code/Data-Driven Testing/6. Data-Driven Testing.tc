@@ -5,31 +5,22 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>66d208b7-6001-43bb-a6b9-ee1de380ad05</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>1f8cdc7f-bd87-4068-afec-1d5c60a9070a</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/New Test Data</testDataId>
-   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>1f8cdc7f-bd87-4068-afec-1d5c60a9070a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Facility</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>9de76f58-5dd4-458f-9e5a-5af4fa905cc0</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>1f8cdc7f-bd87-4068-afec-1d5c60a9070a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Visit_Date</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>e00c189a-e370-4f47-b09f-e8eb581d1424</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>1f8cdc7f-bd87-4068-afec-1d5c60a9070a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Comment</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>7372e88a-7a26-4025-a465-89460d19900b</variableId>
    </variableLinks>
    <variableLinks>

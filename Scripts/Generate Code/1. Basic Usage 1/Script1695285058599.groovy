@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Comment for Generate Code feature
+ */
+
 /*
  * 	Write a Katalon Studio test case to perform the following steps:
  *

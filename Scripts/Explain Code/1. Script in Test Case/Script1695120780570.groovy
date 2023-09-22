@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Script for Explain Code feature 
+ */
+
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))

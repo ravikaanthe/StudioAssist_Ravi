@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Comment for Generate Code feature
+ */
+
 /*
  * I have a list of test objects as below:
  * 		- Make appointment button: 'Page_CuraHomepage/btn_MakeAppointment'

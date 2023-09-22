@@ -17,8 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Comment for Generate Code feature
+ */
+
 /* 
- * 		- Generate a csv file with three columns: `Facility`, `Visist_Date` and `Comment`
+ * 		- Just generate a csv file with three columns: `Facility`, `Visist_Date` and `Comment`
  *
  * 		- The file has 5 rows that comply with the rules as follows:
  * 				+ `Facility` must be one of the following values: `Tokyo CURA Healthcare Center`, `Hongkong CURA Healthcare Center`

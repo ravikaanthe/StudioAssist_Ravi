@@ -17,4 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyMatch(elementText, '^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.[@#$%^&+=]).{8,}$', true)
+/**
+ * Script for Explain Code feature 
+ */
+
+String date = '10:03 AM'
+
+WebUI.verifyMatch(date, '^(1[0-2]|0?[1-9]):[0-5][0-9] (AM|PM)$', true)
