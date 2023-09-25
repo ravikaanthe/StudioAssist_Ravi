@@ -17,7 +17,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 
 /**
- * Script for Explain Code feature 
+ * Prompt for Explain Code feature 
  */
 
 public class WebUICustomKeywords {

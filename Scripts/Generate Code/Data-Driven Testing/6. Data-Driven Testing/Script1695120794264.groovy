@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * Comment for Generate Code feature
+ * Prompt for Generate Code feature
  */
 
 /*

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * Script for Explain Code feature 
+ * Prompt for Explain Code feature 
  */
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
