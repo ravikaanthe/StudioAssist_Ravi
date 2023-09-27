@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * Prompt for Explain Code feature 
+ * The following prompts show how to explain a regular expression using StudioAssist
+ * 
+ * Select the prompt -> right-click -> StudioAssist (Beta) -> Explain Code
  */
 
 String date = '10:03 AM'

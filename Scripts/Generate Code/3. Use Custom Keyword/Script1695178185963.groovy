@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * Prompt for Generate Code feature
+ * The following prompts show how to generate a script having custom keyword with StudioAssist
+ * 
+ * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
  * 
  * You need to generate the script for `Keywords/com.example/MyCustomKeyword.groovy`
  * before generating code in this file

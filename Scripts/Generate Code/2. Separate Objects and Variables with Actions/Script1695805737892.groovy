@@ -18,7 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * Prompt for Generate Code feature
+ * The following prompts show how to generate code with StudioAssist by separating the objects and variables with the actions
+ * 
+ * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
  */
 
 /*
