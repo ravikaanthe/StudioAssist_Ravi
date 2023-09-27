@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompts show how to explain a script in test case using StudioAssist
+ * The following prompt shows how to explain a script in test case using StudioAssist
  * 
  * Select the prompt -> right-click -> StudioAssist (Beta) -> Explain Code
  */

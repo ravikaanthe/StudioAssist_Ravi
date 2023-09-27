@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompts show how to generate script calling other script using StudioAssist
+ * The following prompt shows how to generate script calling other script using StudioAssist
  *  
  * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
  */
