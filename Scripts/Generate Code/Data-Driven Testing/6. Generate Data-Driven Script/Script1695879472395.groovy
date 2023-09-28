@@ -18,11 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt shows how to explain a regular expression using StudioAssist
+ * The following prompt is for generating script that uses CSV data file with StudioAssist
  * 
- * Select the prompt -> right-click -> StudioAssist (Beta) -> Explain Code
+ * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
  */
 
-String date = '10:03 AM'
-
-WebUI.verifyMatch(date, '^(1[0-2]|0?[1-9]):[0-5][0-9] (AM|PM)$', true)
+/*
+ *  I have a list of test objects:
+ *  	- Options: 'Page_CuraAppointment/lst_Facility'
+ *  	- Health program: 'Page_CuraAppointment/chk_Medicaid'
+ *  	- Date: 'Page_CuraAppointment/txt_VisitDate'
+ *  	- Comment: 'Page_CuraAppointment/txt_Comment'
+ *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
+ *
+ *  Write me a script to perform the steps as follows:
+ *  	- Find and call the 'Generate Code/4.1. Called Test Case' test case with the variable 'Username' as 'John Doe' and
+ *   		'Password' as the Password variable to login
+ *  	- Select the option with the variable 'Facility' and the label is not a regex
+ *  	- Check the health program option
+ *      - Set the date with the 'Visit_Date' variable
+ *      - Write comment with the value in the 'Comment' variable
+ *  	- Submit the appointment
+ *  	- Capture the screenshot of the page
+ *  	- Close the browser
+*/

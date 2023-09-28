@@ -25,9 +25,9 @@ import internal.GlobalVariable
 public class MyCustomKeyword {
 
 	/**
-	 * The following prompt shows how to generate a custom keyword with StudioAssist
+	 * The following prompt is for generating a custom keyword with StudioAssist
 	 * 
-	 * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
+	 * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
 	 */
 
 	/*

@@ -18,9 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt shows how to generate script calling other script using StudioAssist
+ * The following prompt is for generating script that calls other script using StudioAssist
  *  
- * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
  */
 
 /*
@@ -32,7 +32,7 @@ import org.openqa.selenium.Keys as Keys
  *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
  *  
  *  Write me a script to perform the steps as follows:
- *  	- Find and call the 'Generate Code/Login' test case with the variable 'Username' as 'John Doe' and
+ *  	- Find and call the 'Generate Code/4.1. Called Test Case' test case with the variable 'Username' as 'John Doe' and
  *   		'Password' as the Password variable to login
  *  	- Select the option with the label 'Hongkong CURA Healthcare Center' and the label
  *  		is not a regex 

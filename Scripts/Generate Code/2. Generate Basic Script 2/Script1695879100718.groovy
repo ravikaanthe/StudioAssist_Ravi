@@ -18,27 +18,27 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt shows how to generate script using external data with StudioAssist
+ * The following prompt is for generating code with StudioAssist by separating the objects and variables with the actions
  * 
- * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
  */
 
 /*
- *  I have a list of test objects:
- *  	- Options: 'Page_CuraAppointment/lst_Facility'
- *  	- Health program: 'Page_CuraAppointment/chk_Medicaid'
- *  	- Date: 'Page_CuraAppointment/txt_VisitDate'
- *  	- Comment: 'Page_CuraAppointment/txt_Comment'
- *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
+ * I have a list of test objects as below:
+ * 		- Make appointment button: 'Page_CuraHomepage/btn_MakeAppointment'
+ * 		- Username: 'Page_Login/txt_UserName'
+ * 		- Password: 'Page_Login/txt_Password'
+ * 		- Login butotn: 'Page_Login/btn_Login'
+ * 		- Appointment div element: 'Page_CuraAppointment/div_Appointment'
  *
- *  Write me a script to perform the steps as follows:
- *  	- Find and call the 'Generate Code/Login' test case with the variable 'Username' as 'John Doe' and
- *   		'Password' as the Password variable to login
- *  	- Select the option with the variable 'Facility' and the label is not a regex
- *  	- Check the health program option
- *      - Set the date with the 'Visit_Date' variable
- *      - Write comment with the value in the 'Comment' variable
- *  	- Submit the appointment
- *  	- Capture the screenshot of the page
- *  	- Close the browser
-*/
+ * I also have a URL: GlobalVariable.G_SiteURL, and two variables `Username` and `Password`
+ *
+ * Write me a test case to perform the following steps.
+ * 		1. Open browser to the URL stored in G_SiteURL
+ * 		2. Click the make appointment button
+ * 		3. Fill in the username and password fields based on the variables
+ * 		4. Click the login button
+ * 		5. Verify that the appointment div exists
+ * 		6. Close the browser
+ *
+ */

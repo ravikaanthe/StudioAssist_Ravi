@@ -18,25 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt shows how to generate script that can synthesize test data with StudioAssist
+ * The following prompt is for explaining a regular expression using StudioAssist
  * 
- * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist (Beta) -> Explain Code
  */
 
-/* 
- * 		- Just generate a csv file with three columns: `Facility`, `Visist_Date` and `Comment`
- *
- * 		- The file has 5 rows that comply with the rules as follows:
- * 				+ `Facility` must be one of the following values: `Tokyo CURA Healthcare Center`, `Hongkong CURA Healthcare Center`
- * 	 				and `Seoul CURA Healthcare Center`
- *				+ `Visit_Date` has the dd/mm/yyyy format
- *				+ `Comment` is one sentence describing issue regarding making appointment
- *
- * 		- Save the output to the `test_data.csv` file using the FileOutputStream libary
- *
- * 		- The file content must follow the below format:
- *
- * 			Facility,Visit_Date,Comment
- * 			<facility>,<visit date>,<comment>
- *
- */
+String date = '10:03 AM'
+
+WebUI.verifyMatch(date, '^(1[0-2]|0?[1-9]):[0-5][0-9] (AM|PM)$', true)

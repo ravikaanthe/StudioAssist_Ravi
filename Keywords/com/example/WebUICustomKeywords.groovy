@@ -17,9 +17,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 
 /**
- * The following prompt shows how to explain a class with StudioAssist
+ * The following prompt is for explaining a class with StudioAssist
  * 
- * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
  */
 
 public class WebUICustomKeywords {

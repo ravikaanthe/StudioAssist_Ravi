@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>3. Use Custom Keyword</name>
+   <name>2. Generate Basic Script 2</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0b06253b-904d-4950-869d-3a145e12b2e0</testCaseGuid>
+   <testCaseGuid>50d50496-eeaa-47ee-8088-c459ac50ebfa</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f60de2f3-5e48-49e4-94d8-51fe55dba6fa</variableId>
+      <variableId>0b23fd1d-a2bb-47ba-9141-079eac72e9df</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a9bc4d0f-8f31-462d-9d67-a42846fb2141</variableId>
+      <variableId>53f2af39-4887-4dba-9e7d-2631a200ad0c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>f60de2f3-5e48-49e4-94d8-51fe55dba6fa</id>
+      <id>0b23fd1d-a2bb-47ba-9141-079eac72e9df</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>a9bc4d0f-8f31-462d-9d67-a42846fb2141</id>
+      <id>53f2af39-4887-4dba-9e7d-2631a200ad0c</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1. Basic Usage 1</name>
+   <name>1. Generate Basic Script 1</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>89f4fe1e-916d-42d6-a01c-fca9b8103b8c</testCaseGuid>

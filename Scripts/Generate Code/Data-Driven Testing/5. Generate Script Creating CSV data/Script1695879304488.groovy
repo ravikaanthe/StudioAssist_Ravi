@@ -18,20 +18,25 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt shows how to generate code with StudioAssist by listing out actions as bullet points
+ * The following prompt is for generating script that creates CSV test data with StudioAssist
  * 
- * Select the prompt -> right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
  */
 
-/*
- * 	Write a Katalon Studio test case to perform the following steps:
+/* 
+ * 		- Just generate a csv file with three columns: `Facility`, `Visist_Date` and `Comment`
  *
- * 		1. Open a browser to the URL stored in the GlobalVariable.G_SiteURL
- * 		2. Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
- * 		3. Fill in the username 'Page_Login/txt_UserName' with the value of the variable 'Username'
- * 		4. Fill in the password 'Page_Login/txt_Password' with the value in the variable 'Password'
- * 		5. Click the login button with the id 'Page_Login/btn_Login'
- * 		6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists
- * 		7. Close the browser
+ * 		- The file has 5 rows that comply with the rules as follows:
+ * 				+ `Facility` must be one of the following values: `Tokyo CURA Healthcare Center`, `Hongkong CURA Healthcare Center`
+ * 	 				and `Seoul CURA Healthcare Center`
+ *				+ `Visit_Date` has the dd/mm/yyyy format
+ *				+ `Comment` is one sentence describing issue regarding making appointment
+ *
+ * 		- Save the output to the `test_data.csv` file using the FileOutputStream libary
+ *
+ * 		- The file content must follow the below format:
+ *
+ * 			Facility,Visit_Date,Comment
+ * 			<facility>,<visit date>,<comment>
  *
  */

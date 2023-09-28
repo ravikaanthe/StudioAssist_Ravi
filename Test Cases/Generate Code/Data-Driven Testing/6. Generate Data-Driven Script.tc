@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>6. Data-Driven Testing</name>
+   <name>6. Generate Data-Driven Script</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>66d208b7-6001-43bb-a6b9-ee1de380ad05</testCaseGuid>
