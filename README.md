@@ -1,6 +1,6 @@
 # StudioAssist Tests
 
-Navigate to [StudioAssist] for further details.
+Navigate to [Sample StudioAssist project](https://docs.katalon.com/docs/get-started/sample-projects/studioassist/sample-studioassist-project) for further details.
 
 ## Companion products
 
