@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 /**
  * The following prompt is for generating code with StudioAssist by listing out actions as steps
  * 
- * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist -> Generate Code
  */
 
 /*

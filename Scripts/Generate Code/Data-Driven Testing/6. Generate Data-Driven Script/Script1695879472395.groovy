@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 /**
  * The following prompt is for generating script that uses CSV data file with StudioAssist
  * 
- * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist -> Generate Code
  */
 
 /*
