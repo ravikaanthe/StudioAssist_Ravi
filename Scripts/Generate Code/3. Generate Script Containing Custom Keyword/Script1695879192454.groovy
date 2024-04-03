@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
  * You need to generate the script for `Keywords/com.example/MyCustomKeyword.groovy`
  * before generating code in this file
  * 
- * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
+ * Select the prompt -> Right-click -> StudioAssist -> Generate Code
  * 
  */
 

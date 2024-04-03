@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 /**
  * The following prompt is for explaining a script in test case using StudioAssist
  * 
- * Select the prompt -> Right-click -> StudioAssist (Beta) -> Explain Code
+ * Select the prompt -> Right-click -> StudioAssist -> Explain Code
  */
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)

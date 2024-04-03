@@ -27,7 +27,7 @@ public class MyCustomKeyword {
 	/**
 	 * The following prompt is for generating a custom keyword with StudioAssist
 	 * 
-	 * Select the prompt -> Right-click -> StudioAssist (Beta) -> Generate Code
+	 * Select the prompt -> Right-click -> StudioAssist -> Generate Code
 	 */
 
 	/*
