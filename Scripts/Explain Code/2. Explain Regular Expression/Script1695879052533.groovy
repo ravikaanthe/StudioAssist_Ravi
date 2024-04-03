@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 /**
  * The following prompt is for explaining a regular expression using StudioAssist
  * 
- * Select the prompt -> Right-click -> StudioAssist -> Explain Code
+ * Select the code -> Right-click -> StudioAssist -> Explain Code
  */
 
 String date = '10:03 AM'
