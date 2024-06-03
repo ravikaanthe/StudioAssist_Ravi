@@ -4,23 +4,33 @@
    <name>6. Generate Data-Driven Script</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>66d208b7-6001-43bb-a6b9-ee1de380ad05</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f0bb5a36-86a6-4c79-a4d3-c4c1156d6cf5</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>f0bb5a36-86a6-4c79-a4d3-c4c1156d6cf5</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Facility</value>
       <variableId>9de76f58-5dd4-458f-9e5a-5af4fa905cc0</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>f0bb5a36-86a6-4c79-a4d3-c4c1156d6cf5</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Visit_Date</value>
       <variableId>e00c189a-e370-4f47-b09f-e8eb581d1424</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>f0bb5a36-86a6-4c79-a4d3-c4c1156d6cf5</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comment</value>
       <variableId>7372e88a-7a26-4025-a465-89460d19900b</variableId>
    </variableLinks>
    <variableLinks>

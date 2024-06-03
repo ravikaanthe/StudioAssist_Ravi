@@ -23,20 +23,9 @@ import org.openqa.selenium.Keys as Keys
  * Select the prompt -> Right-click -> StudioAssist -> Generate Code
  */
 
-/* 
- * 		- Just generate a csv file with three columns: `Facility`, `Visist_Date` and `Comment`
- *
- * 		- The file has 5 rows that comply with the rules as follows:
- * 				+ `Facility` must be one of the following values: `Tokyo CURA Healthcare Center`, `Hongkong CURA Healthcare Center`
- * 	 				and `Seoul CURA Healthcare Center`
- *				+ `Visit_Date` has the dd/mm/yyyy format
- *				+ `Comment` is one sentence describing issue regarding making appointment
- *
- * 		- Save the output to the `test_data.csv` file using the FileOutputStream libary
- *
- * 		- The file content must follow the below format:
- *
- * 			Facility,Visit_Date,Comment
- * 			<facility>,<visit date>,<comment>
- *
+/* - Create a CSV file named 'Data Files/data.csv' using java.io, listout libraries need to import
+ * - Add into data.csv file with 3 columns: Facility, Visit_Date, Comment with 5 rows that comply with the rules as follows:
+ * 	+ 'Facility' must be one of the following values: `Tokyo CURA Healthcare Center`, `Hongkong CURA Healthcare Center`and `Seoul CURA Healthcare Center`
+ * 	+ 'Visit_Date' in dd/mm/yyyy format
+ *  + 'Comment' is a sentence describing issue regarding making appointment
  */

@@ -38,7 +38,7 @@ import org.openqa.selenium.Keys as Keys
  * 		2. Click the make appointment button
  * 		3. Fill in the username and password fields based on the variables
  * 		4. Click the login button
- * 		5. Verify that the appointment div exists
+ * 		5. Verify that the appointment div exists with timeout 10s
  * 		6. Close the browser
  *
  */

@@ -31,18 +31,11 @@ public class MyCustomKeyword {
 	 */
 
 	/*
-	 * Write me a clickElement method that receives a test object id of type String and does as follows:
-	 *
+	 * Write me a clickElement keyword that receives a test object id of type String and does as follows:
 	 * 1. Click the element
 	 * 2. If cannot click the element, catch WebElementNotFoundException exception and use KeywordUtil.markFailed to say that you cannot find the element
 	 * 3. If other errors, catch Exception saying that you failed to click the element with the KeywordUtil.markFailed
 	 * 4. Otherwise, mark the keyword as succeed
 	 * 
-	 * The clickElement method has the following format
-	 * 
-	 *     @Keyword
-	 *     def clickElement(<a test object id>) {
-	 *	  		<content of the method>
-	 *	   }
 	 */
 }

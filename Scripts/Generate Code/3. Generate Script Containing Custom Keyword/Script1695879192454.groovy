@@ -29,10 +29,9 @@ import org.openqa.selenium.Keys as Keys
 
 /*
  * 1. Open a browser to the GlobalVariable.G_SiteURL URL
- * 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'clickElement' keyword
- * 		inside the 'MyCustomKeyword' class. The class is within the 'com.example' package
- * 3. Set the username object 'Page_Login/txt_UserName' with the 'Username' variable
- * 4. Set the password object 'Page_Login/txt_Password' with the 'Password' variable
+ * 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'com.example.MyCustomKeyword.clickElement'(String testObjectId) custom keyword
+ * 3. Set the username object 'Page_Login/txt_UserName' with the 'Username' local variable
+ * 4. Set the password object 'Page_Login/txt_Password' with the 'Password' local variable
  * 5. Click the 'Page_Login/btn_Login' login button with the same 'clickElement' custom keyword
  * 		in step 2
  * 6. Verify that the 'Page_CuraAppointment/div_Appointment' element is present with 10 seconds timeout

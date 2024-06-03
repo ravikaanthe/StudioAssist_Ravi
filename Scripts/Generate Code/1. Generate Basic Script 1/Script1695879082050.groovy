@@ -31,7 +31,6 @@ import org.openqa.selenium.Keys as Keys
  * 		3. Fill in the username 'Page_Login/txt_UserName' with the value of the variable 'Username'
  * 		4. Fill in the password 'Page_Login/txt_Password' with the value in the variable 'Password'
  * 		5. Click the login button with the id 'Page_Login/btn_Login'
- * 		6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists
+ * 		6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
  * 		7. Close the browser
- *
  */
