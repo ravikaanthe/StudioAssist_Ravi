@@ -33,7 +33,7 @@ import org.openqa.selenium.Keys as Keys
  *  
  *  Write me a script to perform the steps as follows:
  *  	- Find and call the 'Generate Code/4.1. Called Test Case' test case with the variable 'Username' as 'John Doe' and
- *   		'Password' as the Password variable to login
+ *   		'Password' as the Password local variable to login
  *  	- Select the option with the label 'Hongkong CURA Healthcare Center' and the label
  *  		is not a regex 
  *  	- Check the health program option
