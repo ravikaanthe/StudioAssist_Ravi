@@ -28,8 +28,8 @@ import org.openqa.selenium.Keys as Keys
  *
  * 		1. Open a browser to the URL stored in the GlobalVariable.G_SiteURL
  * 		2. Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
- * 		3. Fill in the username 'Page_Login/txt_UserName' with the value of the variable 'Username'
- * 		4. Fill in the password 'Page_Login/txt_Password' with the value in the variable 'Password'
+ * 		3. Fill in the username 'Page_Login/txt_UserName' with the value of the local variable 'Username'
+ * 		4. Fill in the password 'Page_Login/txt_Password' with the value in the local variable 'Password'
  * 		5. Click the login button with the id 'Page_Login/btn_Login'
  * 		6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
  * 		7. Close the browser

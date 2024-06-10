@@ -31,7 +31,7 @@ import org.openqa.selenium.Keys as Keys
  * 		- Login butotn: 'Page_Login/btn_Login'
  * 		- Appointment div element: 'Page_CuraAppointment/div_Appointment'
  *
- * I also have a URL: GlobalVariable.G_SiteURL, and two variables `Username` and `Password`
+ * I also have a URL: GlobalVariable.G_SiteURL, and two local variables `Username` and `Password`
  *
  * Write me a test case to perform the following steps.
  * 		1. Open browser to the URL stored in G_SiteURL
