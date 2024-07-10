@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>bbc169af-362f-4fb1-9747-92cbedaefd93</dataFileGUID>
-   <dataSourceUrl>/Users/huyen.nguyen/Katalon Studio/StudioAssist/Data Files/data.csv</dataSourceUrl>
+   <dataSourceUrl>Data Files/data.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
