@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following use case is for generating script that uses CSV file with StudioAssist
+ * The following use case is for generating script that uses CSV file with StudioAssist.
  */
 
 /*
