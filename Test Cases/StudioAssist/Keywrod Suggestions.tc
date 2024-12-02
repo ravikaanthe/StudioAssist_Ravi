@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>5. Generate Script Creating CSV data</name>
+   <name>Keywrod Suggestions</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>37a97b60-5739-4339-a798-2f56fb98bd0d</testCaseGuid>
+   <testCaseGuid>9f806a93-bf66-475f-8bd5-a4e1c07127a4</testCaseGuid>
 </TestCaseEntity>

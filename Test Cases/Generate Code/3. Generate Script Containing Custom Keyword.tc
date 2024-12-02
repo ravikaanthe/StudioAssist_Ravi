@@ -4,6 +4,7 @@
    <name>3. Generate Script Containing Custom Keyword</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0b06253b-904d-4950-869d-3a145e12b2e0</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

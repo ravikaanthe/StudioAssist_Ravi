@@ -4,6 +4,7 @@
    <name>1. Generate Basic Script 1</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>89f4fe1e-916d-42d6-a01c-fca9b8103b8c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

@@ -18,40 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt is for generating code with StudioAssist by listing out actions as steps
+ * The following prompt is for explaining a script in test case using StudioAssist
  * 
- * Select the prompt -> Right-click -> StudioAssist -> Generate Code
+ * Select the code -> Right-click -> StudioAssist -> Explain Code
  */
 
-/*
- * 	Write a Katalon Studio test case to perform the following steps:
- *
- * 		1. Open a browser to the URL stored in the GlobalVariable.G_SiteURL
- * 		2. Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
- * 		3. Fill in the username 'Page_Login/txt_UserName' with the value of the local variable 'Username'
- * 		4. Fill in the password 'Page_Login/txt_Password' with the value in the local variable 'Password'
- * 		5. Click the login button with the id 'Page_Login/btn_Login'
- * 		6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
- * 		7. Close the browser
- */
-// Open a browser to the URL stored in the GlobalVariable.G_SiteURL
-WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-// Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
-// Fill in the username 'Page_Login/txt_UserName' with the value of the local variable 'Username'
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
-// Fill in the password 'Page_Login/txt_Password' with the value in the local variable 'Password'
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
-// Click the login button with the id 'Page_Login/btn_Login'
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
-// Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
-WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 10)
+WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 0)
 
-// Close the browser
 WebUI.closeBrowser()
+/*
+*  Automated test script to login to a website and make an appointment.
+*
+*  1. Open the browser and navigate to the specified site URL.
+*  2. Click on the "Make Appointment" button on the homepage.
+*  3. Set the text in the "Username" field.
+*  4. Set the text in the "Password" field.
+*  5. Click on the "Login" button.
+*  6. Verify the presence of the appointment div element.
+*  7. Close the browser.
+*
+*/

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>4. Generate Script Calling Other Test Case</name>
+   <name>Generate Code - UseCase 3</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d7d6640c-6806-4bd5-91b9-76867dbf4440</testCaseGuid>
+   <testCaseGuid>11a75205-31c8-4f37-83e7-fa628b35032c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>58d0c436-b9ad-4ed4-bb05-a911d7980a2f</variableId>
+      <variableId>af9dff53-5e89-4a92-98a3-edc9efb46c13</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>58d0c436-b9ad-4ed4-bb05-a911d7980a2f</id>
+      <id>af9dff53-5e89-4a92-98a3-edc9efb46c13</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

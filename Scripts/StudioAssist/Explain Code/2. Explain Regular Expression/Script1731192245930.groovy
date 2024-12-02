@@ -17,21 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 /**
- * This script is for the other test cases to call
+ * The following prompt is for explaining a regular expression using StudioAssist
+ * 
+ * Select the code -> Right-click -> StudioAssist -> Explain Code
  */
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+String date = '10:03 AM'
 
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-
-WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
-
-WebUI.click(findTestObject('Page_Login/btn_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 0)
-
-
-
+WebUI.verifyMatch(date, '^(1[0-2]|0?[1-9]):[0-5][0-9] (AM|PM)$', true)
+/*
+*  Verify if the given date string follows the format of 'hh:mm AM/PM'.
+*
+*  1. The code assigns a date string '10:03 AM' to the variable 'date'.
+*  2. The code uses a regular expression to match the format of 'hh:mm AM/PM'.
+*  3. The code verifies if the 'date' string matches the specified format.
+*
+*/

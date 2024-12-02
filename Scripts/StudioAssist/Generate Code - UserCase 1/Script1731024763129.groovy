@@ -18,25 +18,22 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt is for generating code with StudioAssist by listing out actions as steps
- * 
- * Select the prompt -> Right-click -> StudioAssist -> Generate Code
- */
+* The following use case is for generating code with StudioAssist by lisitng out actions as steps in plain english language
+*/
 
 /*
- * 	Write a Katalon Studio test case to perform the following steps:
- *
- * 		1. Open a browser to the URL stored in the GlobalVariable.G_SiteURL
- * 		2. Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
- * 		3. Fill in the username 'Page_Login/txt_UserName' with the value of the local variable 'Username'
- * 		4. Fill in the password 'Page_Login/txt_Password' with the value in the local variable 'Password'
- * 		5. Click the login button with the id 'Page_Login/btn_Login'
- * 		6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
- * 		7. Close the browser
+ * Write a Katalon Studio Test Case to perform the following steps:
+ * 
+ * 1. Open a Browser to the URL stored in the GlobalVariable.G_SiteURL
+ * 2. Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
+ * 3. Fill in the username 'Page_Login/txt_UserName' with the value of the local varable 'Username'
+ * 4. Fill in the password 'Page_Login/txt_Password' with the value in the local variable 'Password'
+ * 5. Click login button with the id 'Object Repository/Page_Login/btn_Login'
+ * 6. Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
+ * 7. Close the browser
  */
-// Open a browser to the URL stored in the GlobalVariable.G_SiteURL
-WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
+// Open a Browser to the URL stored in the GlobalVariable.G_SiteURL
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 // Click the make appointment button with the id 'Page_CuraHomepage/btn_MakeAppointment'
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
@@ -47,7 +44,7 @@ WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 // Fill in the password 'Page_Login/txt_Password' with the value in the local variable 'Password'
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
-// Click the login button with the id 'Page_Login/btn_Login'
+// Click login button with the id 'Object Repository/Page_Login/btn_Login'
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 // Verify that the appointment div 'Page_CuraAppointment/div_Appointment' exists with timeout 10s
@@ -55,3 +52,4 @@ WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'
 
 // Close the browser
 WebUI.closeBrowser()
+

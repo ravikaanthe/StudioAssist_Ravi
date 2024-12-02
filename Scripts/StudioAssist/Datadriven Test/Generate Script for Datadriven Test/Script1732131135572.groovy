@@ -18,32 +18,29 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt is for generating script that uses CSV data file with StudioAssist
- * 
- * Select the prompt -> Right-click -> StudioAssist -> Generate Code
+ * The following use case is for generating script that uses CSV file with StudioAssist
  */
 
 /*
- *  I have a list of test objects:
- *  	- Options: 'Page_CuraAppointment/lst_Facility'
- *  	- Health program: 'Page_CuraAppointment/chk_Medicaid'
- *  	- Date: 'Page_CuraAppointment/txt_VisitDate'
- *  	- Comment: 'Page_CuraAppointment/txt_Comment'
- *  	- Make appointment button: 'Page_CuraAppointment/btn_BookAppointment'
- *
- *  Write me a script to perform the steps as follows:
- *  	- Find and call the 'Generate Code/4.1. Called Test Case' test case with the variable 'Username' as 'John Doe' and
- *   		'Password' as the Password variable to login
- *  	- Select the option with the variable 'Facility' and the label is not a regex
- *  	- Check the health program option
- *      - Set the date with the 'Visit_Date' variable
- *      - Write comment with the value in the 'Comment' variable
- *  	- Submit the appointment
- *  	- Capture the screenshot of the page
- *  	- Close the browser
-*/
-// Find and call the 'Generate Code/4.1. Called Test Case' test case with the variable 'Username' as 'John Doe' and 'Password' as the Password variable to login
-WebUI.callTestCase(findTestCase('Generate Code/4.1. Called Test Case'), [('Username') : 'John Doe', ('Password') : Password])
+ * I have a list of test object:
+ * - Options: 'Page_CuraAppointment/lst_Facility'
+ * - Health Program: 'Page_CuraAppointment/chk_Medicaid'
+ * - Date: 'Page_CuraAppointment/txt_VisitDate'
+ * - Comment: 'Page_CuraAppointment/txt_Comment'
+ * - Make Appointment button: 'Page_CuraAppointment/btn_BookAppointment'
+ * 
+ * Write me a script to perfomr the steps as follows:
+ *  - Find and call the 'StudioAssist/Reusable Tests/Login' test case with the variable 'Username' as 'John Doe' and 'Password' as the Password variable to login
+ * - Select the option with the variable 'Facility' and the label is not a regex
+ * - Check teh health program option
+ * - Set the date with the 'Visit_Date' variable
+ * - Write comment with the value in the 'Comment' variable
+ * - Submit the appointment
+ * - Capture the screenshot of the page
+ * - Close the browser
+ */
+// Find and call the 'StudioAssist/Reusable Tests/Login' test case with the variable 'Username' as 'John Doe' and 'Password' as the Password variable to login
+WebUI.callTestCase(findTestCase('StudioAssist/Reusable Tests/Login'), [('Username') : 'John Doe', ('Password') : Password])
 
 // Select the option with the variable 'Facility' and the label is not a regex
 WebUI.selectOptionByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), Facility, false)

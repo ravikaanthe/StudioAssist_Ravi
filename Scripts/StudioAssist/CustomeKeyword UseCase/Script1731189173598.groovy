@@ -18,18 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /**
- * The following prompt is for generating a script that contains custom keyword with StudioAssist
- * 
- * You need to generate the script for `Keywords/com.example/MyCustomKeyword.groovy`
- * before generating code in this file
- * 
- * Select the prompt -> Right-click -> StudioAssist -> Generate Code
- * 
+ * The following usecae is for generating the script that contains custom keyword with StudioAssist
  */
 
 /*
  * 1. Open a browser to the GlobalVariable.G_SiteURL URL
- * 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'com.example.MyCustomKeyword.clickElement'(String testObjectId) custom keyword
+ * 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'com.example.CustomKeyword.clickElement'(String testObjectId) custom keyword
  * 3. Set the username object 'Page_Login/txt_UserName' with the 'Username' local variable
  * 4. Set the password object 'Page_Login/txt_Password' with the 'Password' local variable
  * 5. Click the 'Page_Login/btn_Login' login button with the same 'clickElement' custom keyword
@@ -37,12 +31,11 @@ import org.openqa.selenium.Keys as Keys
  * 6. Verify that the 'Page_CuraAppointment/div_Appointment' element is present with 10 seconds timeout
  * 7. Close the browser
  */
-
 // 1. Open a browser to the GlobalVariable.G_SiteURL URL
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-// 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'com.example.MyCustomKeyword.clickElement'(String testObjectId) custom keyword
-CustomKeywords.'com.example.MyCustomKeyword.clickElement'('Page_CuraHomepage/btn_MakeAppointment')
+// 2. Click the 'Page_CuraHomepage/btn_MakeAppointment' button using the 'com.example.CustomKeyword.clickElement'(String testObjectId) custom keyword
+CustomKeywords.'com.example.CustomKeyword.ClickElement'('Page_CuraHomepage/btn_MakeAppointment')
 
 // 3. Set the username object 'Page_Login/txt_UserName' with the 'Username' local variable
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
@@ -51,7 +44,7 @@ WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
 // 5. Click the 'Page_Login/btn_Login' login button with the same 'clickElement' custom keyword used in step 2
-CustomKeywords.'com.example.MyCustomKeyword.clickElement'('Page_Login/btn_Login')
+CustomKeywords.'com.example.CustomKeyword.ClickElement'('Page_Login/btn_Login')
 
 // 6. Verify that the 'Page_CuraAppointment/div_Appointment' element is present with 10 seconds timeout
 WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 10)

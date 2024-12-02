@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>4.1. Called Test Case</name>
+   <name>Generate Code - UseCase 2</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>286645bb-7d8c-431c-b409-10400df1c31c</testCaseGuid>
+   <testCaseGuid>3f4b3c3b-c70c-440e-8ad6-5c819f6e33d2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9fd0828d-c4c5-4dbd-b64e-14278d5ef321</variableId>
+      <variableId>74c376d5-3ee5-4866-a835-638590735524</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8706a9b5-767d-4ea8-97e7-e337a625dfe2</variableId>
+      <variableId>a86572e8-f432-4328-a657-7f2e5271336b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>9fd0828d-c4c5-4dbd-b64e-14278d5ef321</id>
+      <id>74c376d5-3ee5-4866-a835-638590735524</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>8706a9b5-767d-4ea8-97e7-e337a625dfe2</id>
+      <id>a86572e8-f432-4328-a657-7f2e5271336b</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

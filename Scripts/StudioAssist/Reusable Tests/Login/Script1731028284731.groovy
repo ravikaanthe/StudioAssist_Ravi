@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 /**
  * This script is for the other test cases to call
  */
@@ -32,6 +31,4 @@ WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), 0)
-
-
 
